@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sophia's Personal Portfolio</title>
+  <style>
+    body {
+      font-family: 'Lucida Console', 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+      background: #580b0b;
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      margin-top: 40px;
+      background: #580b0b;
+      box-shadow: 0 0 10px #000000;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about {
+      flex: 1 1 300px;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin: 20px;
+      max-width: 500px;
+    }
+
+    .profile-pic {
+      flex: 1 1 250px;
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 0%;
+      object-fit: cover;
+      margin: 20px auto;
+      display: block;
+    }
+
+    .contact {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #ffffff33;
+    }
+
+    .contact h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .contact p {
+      font-size: 1rem;
+      margin: 5px 0;
+    }
+
+    .contact a {
+      color: #9eafdd;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .about {
+        margin: 10px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .contact h2 {
+        font-size: 1.25rem;
+      }
+
+      .contact p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="about">
+        <h1><b>Sophia Coffee's Portfolio</b></h1>
+        <p>Hello! I'm Sophia -- I'm a rising senior in high school and I currently live in Virginia.</p>
+        <p>My curiosity for computer science was fostered through my school's AP Computer Science courses, causing me to help create my school's PTA website and engage in robotics! In college, I plan to double major in computer science and software engineering!</p>
+        <p>In my free time, I love being outside -- whether it's playing lacrosse or soccer, hiking, or just enjoying being in the sun! I am also an avid foodie and love exploring new, local restaurants!</p>
+      </div>
+      <img src="https://i.postimg.cc/s1d2F1Qw/IMG-0295.jpg" alt="Image of Sophia Coffee" class="profile-pic" />
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <p>📧 Email: <a href="mailto:sophiacoffee26@gmail.com">sophiacoffee26@gmail.com</a></p>
+    </div>
+  </div>
+</body>
+</html>
